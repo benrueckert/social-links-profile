@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Social Links Profile</title>
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <!-- Main Card -->
+      <article class="profile-card" itemscope itemtype="https://schema.org/Person">
+        <header class="profile-card__header">
+          <figure class="profile-card__avatar">
+            <img
+              src="./assets/images/portrait-ben.jpg"
+              alt="Portrait of Ben Rückert"
+            />
+          </figure>
+
+          <h1 class="profile-card__name" itemprop="name">Ben Rückert</h1>
+
+          <p class="profile-card__location">
+            <span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+              <span itemprop="addressLocality">Bayreuth</span>,
+              <span itemprop="addressCountry">Germany</span>
+            </span>
+          </p>
+
+          <p class="profile-card__bio" itemprop="description">
+            “Front-end developer and avid reader.”
+          </p>
+        </header>
+
+        <!-- Social Links -->
+        <nav class="profile-card__links" aria-label="Profile links">
+          <ul class="link-list">
+            <li>
+              <a class="link-list__item" href="https://github.com/benrueckert" rel="me noopener noreferrer">
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a class="link-list__item" href="https://www.linkedin.com/in/benrueckert" rel="me noopener noreferrer">
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a class="link-list__item" href="https://www.frontendmentor.io/profile/benrueckert" rel="me noopener noreferrer">
+                Frontend Mentor
+              </a>
+            </li>
+            <li>
+              <a class="link-list__item" href="https://x.com/benrckt" rel="me noopener noreferrer">
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a class="link-list__item" href="https://instagram.com/_einben_" rel="me noopener noreferrer">
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </article>
+    </main>
+  </body>
+</html>
