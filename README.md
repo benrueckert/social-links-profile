@@ -13,12 +13,12 @@
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/Screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [click here:](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)
+- Live Site URL: [click here:](https://social-links-profile-1vvy.vercel.app/)
 
 ## My process
 
